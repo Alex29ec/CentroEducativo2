@@ -3,8 +3,11 @@ package entidades;
 public class Materia {
 	
 	private int id;
-	private String nombre;
+	private String nombre,codigo;
 	private int idnivel;
+	private String urlClassroom;
+	private boolean admitematricula;
+	private String fechaInicio;
 	
 	@Override
 	public String toString() {
@@ -53,9 +56,7 @@ public class Materia {
 	public void setFechaInicio(String fechaInicio) {
 		this.fechaInicio = fechaInicio;
 	}
-	String codigo;
-	String urlClassroom;
-	boolean admitematricula;
-	String fechaInicio;
+	
+	
 }
 
